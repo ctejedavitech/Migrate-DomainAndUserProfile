@@ -83,9 +83,6 @@ The script includes `try`/`catch` blocks to handle any potential errors that may
 - **Profile Migration:** The profile migration uses the `Set-UserProfileOwner` cmdlet, which might require a custom module (`UserProfileMigrate`). Ensure the module is available on the system.
 - **Credential Handling:** For security, avoid hardcoding credentials. Instead, use secure storage methods like the Windows Credential Manager or Azure Key Vault in production environments.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
